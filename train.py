@@ -71,6 +71,7 @@ if __name__ == "__main__":
     args = parser.parse_args()
     params = utils.Params(args.config_path)
     device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
+    print(device)
 
     for i in range(1, params.num_folds+1):
         if params.dataaug:
