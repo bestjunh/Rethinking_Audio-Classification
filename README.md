@@ -5,6 +5,18 @@ This repository contains the PyTorch code for our paper [Rethinking CNN Models f
 2. [UrbanSound8K](https://urbansounddataset.weebly.com/urbansound8k.html)
 3. [GTZAN](https://www.kaggle.com/andradaolteanu/gtzan-dataset-music-genre-classification)
 
+### Pre-Install on conda environment
+```
+pip install librosa
+pip install pandas
+pip install torch
+pip install torchaudio
+pip install torchvision
+pip install torchsummary
+pip install lmdb
+pip install tensorboardX
+```
+
 ### Preprocessing
 
 The preprocessing is done separately to save time during the training of the models.
