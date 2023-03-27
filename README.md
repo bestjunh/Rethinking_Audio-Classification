@@ -40,6 +40,6 @@ python preprocessing/preprocessingGTZAN.py --data_dir /path/to/audio_data/ --sto
 
 The configurations for training the models are provided in the config folder. The sample_config.json explains the details of all the variables in the configurations. The command for training is: 
 ```console
-python train.py --config_path /config/your_config.json
+python train.py --config_path config/your_config.json
 ```
 
